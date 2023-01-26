@@ -1,0 +1,242 @@
+/*Estilos gerais*/
+
+* {
+    color: #25282e;
+}
+
+
+a, i {
+    transition: .5s;
+    text-decoration: none; /* tira os sublinhados */
+}
+
+.secondary-color {
+    color: #555;
+}
+
+.center-image {
+    background-size: cover; /* a imagem se adapte ao tamnho da div*/
+    background-position: center;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: #25282e;
+    color: #fff;
+    padding: 7px 18px;
+    border-radius: 0;
+}
+
+.btn:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* header */
+
+#header {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+} 
+
+#header p {
+    margin-bottom: 0;
+}
+
+#logo-container {
+    display: flex;
+    justify-content: center;
+}
+
+#logo {
+    width: 40px;
+    margin-right: 15px;
+}
+
+/*navbar*/
+
+#navbar {
+    padding: 10px;
+    margin: 10px auto ;
+}
+
+#navbar a {
+    width: 80px;
+    color: #444;
+}
+
+#navbar a:hover {
+    color: #c1b696;
+}
+
+/* main image  */
+
+.main-image {
+    height: 400px;
+    background-image: url(./image/g_1.jpg);
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.main-image-info {
+    background-color: #fff;
+    padding: 25px;
+    position: absolute; 
+    left: 25px;
+    bottom: 25px;
+}
+
+/* GALLERY */
+
+#img2 {
+    background-image: url(./image/g_2.jpg);
+    box-shadow: 15px 15px 15px grey;
+    border-radius: 30px;
+}
+
+
+#img3 {
+    background-image: url(./image/g_3.jpg);
+    box-shadow: 15px 15px 15px grey;
+    border-radius: 30px;
+}
+
+
+#img4 {
+    background-image: url(./image/g_4.jpg);
+    box-shadow: 15px 15px 15px grey;
+    border-radius: 30px;
+}
+
+
+#img5 {
+    background-image: url(./image/g_5.jpg);
+    box-shadow: 15px 15px 15px grey;
+    border-radius: 30px;
+}
+
+#img6 {
+    background-image: url(./image/g_6.jpg);
+    box-shadow: 15px 15px 15px grey;
+    border-radius: 30px;
+}
+
+#img7 {
+    background-image: url(./image/g_7.jpg);
+    box-shadow: 15px 15px 15px grey;
+    border-radius: 30px;
+}
+
+
+#gallery-container h1 {
+    text-align: center;
+}
+
+#gallery-container h1,
+#gallery-container .col-md-6,
+#gallery-container .col-md-12 {
+    margin-bottom: 50px;
+}
+
+.small-image-container {
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+/* FOOTER */
+
+footer {
+    border-top: 2px solid #ccc;
+    height: 250px;
+    padding: 30px;
+}
+
+footer i {
+    font-size: 25px;
+}
+
+#social-icons-container {
+    padding: 20px;
+
+}
+
+#social-icons-container div {
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+    margin: 20px;
+}
+
+.bi-facebook {
+    color: blue;
+}
+
+.bi-instagram {
+    color: #ff0095; 
+}
+
+.bi-twitter {
+    color: #00bfff;
+}
+
+
+/* Zoom on Hover das img */
+
+#img2 {
+    transition: transform .5s;
+}
+#img2:hover {
+    -ms-transform: scale(0.5); /* IE 9 */
+    -webkit-transform: scale(0.5); /* Safari 3-8 */
+    transform: scale(1.1); 
+}
+
+#img3 {
+    transition: transform .5s;
+}
+#img3:hover {
+    -ms-transform: scale(0.5); /* IE 9 */
+    -webkit-transform: scale(0.5); /* Safari 3-8 */
+    transform: scale(1.1); 
+}
+
+#img4 {
+    transition: transform .5s;
+}
+#img4:hover {
+    -ms-transform: scale(0.5); /* IE 9 */
+    -webkit-transform: scale(0.5); /* Safari 3-8 */
+    transform: scale(1.1); 
+}
+
+#img5 {
+    transition: transform .5s;
+}
+#img5:hover {
+    -ms-transform: scale(0.5); /* IE 9 */
+    -webkit-transform: scale(0.5); /* Safari 3-8 */
+    transform: scale(1.1); 
+}
+
+#img6 {
+    transition: transform .5s;
+}
+#img6:hover {
+    -ms-transform: scale(0.5); /* IE 9 */
+    -webkit-transform: scale(0.5); /* Safari 3-8 */
+    transform: scale(1.1); 
+}
+
+#img7 {
+    transition: transform .5s;
+}
+#img7:hover {
+    -ms-transform: scale(0.5); /* IE 9 */
+    -webkit-transform: scale(0.5); /* Safari 3-8 */
+    transform: scale(1.1); 
+}
+
+/* fim Zoom on Hover nas img */
