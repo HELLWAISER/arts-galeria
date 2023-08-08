@@ -1,2 +1,2 @@
-### arts-galeria
-### Aprendendo conceitos de Bootstrap
+#### arts-galeria - conceitos de Bootstrap
+
